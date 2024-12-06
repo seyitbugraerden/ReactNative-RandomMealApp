@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+<a name="readme-top"></a>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Random Meal App
 
-## Get started
+<img src="https://github.com/user-attachments/assets/ec4e26b8-b606-4aa0-8914-02cf2e65619a" width="310"/>
+<img src="https://github.com/user-attachments/assets/28005acf-c9e8-4b55-9abb-cf3b782bf48d" width="310"/>
+<img src="https://github.com/user-attachments/assets/c6df460a-edf6-4a05-89a8-dff316d2ab2a" width="310"/>
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+<!-- Table of Contents -->
+<details>
 
-2. Start the app
+<summary>
 
-   ```bash
-    npx expo start
-   ```
+# :notebook_with_decorative_cover: Table of Contents
 
-In the output, you'll find options to open the app in a
+</summary>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Folder Structure](#bangbang-folder-structure)
+- [Getting Started](#toolbox-getting-started)
+- [Follow Me](#rocket-follow-me)
+- [Learn More](#books-learn-more)
+- [Give A Star](#star-give-a-star)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+</details>
 
-## Get a fresh project
+## :bangbang: Folder Structure
 
-When you're ready, run:
+Here is the folder structure of this app.
 
 ```bash
-npm run reset-project
+Native-RandomMealApp/
+  |- components/
+  |- app/
+    |-- _layout.ts
+    |-- +html.ts
+    |-- +not_found.tsx
+  |- assets/
+  |- constants/
+  |- scripts/
+  |- hooks/
+  |- package-lock.json
+  |- package.json
+  |- tsconfig.js
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+<br />
 
-## Learn more
+## :toolbox: Getting Started
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Make sure **Git** and **NodeJS** is installed.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2. Clone this repository to your local computer.
 
-## Join the community
+3. Open terminal in root directory. Run `npm install --legacy-peer-deps` or `yarn install --legacy-peer-deps`.
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## :rocket: Follow Me
+
+[![GitHub followers](https://img.shields.io/github/followers/seyitbugraerden?style=social&label=Follow&maxAge=2592000)](https://github.com/seyitbugraerden "Follow Me")
+[![Twitter](https://img.shields.io/twitter/url?style=social&url=https://x.com/bugrakisisi)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fsanidhyy%2Fmodern-portfolio "Tweet")
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@SfenksMotovlog "Subscribe my Channel")
+
+## :books: Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+
+## :star: Give A Star
+
+You can also give this repository a star to show more people and they can use this repository.
+
