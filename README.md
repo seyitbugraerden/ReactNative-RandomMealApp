@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Random Meal App
+# React Native -- Random Meal App
 
 <img src="https://github.com/user-attachments/assets/ec4e26b8-b606-4aa0-8914-02cf2e65619a" width="310"/>
 <img src="https://github.com/user-attachments/assets/28005acf-c9e8-4b55-9abb-cf3b782bf48d" width="310"/>
