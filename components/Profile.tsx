@@ -6,7 +6,9 @@ import {
   Button,
   ActivityIndicator,
   Image,
+  TouchableOpacity,
 } from "react-native";
+import { IoMdRefresh } from "react-icons/io";
 
 export default function ProfileScreen() {
   const [meal, setMeal] = useState(null);
@@ -37,7 +39,7 @@ export default function ProfileScreen() {
     <View style={styles.usual}>
       <View style={styles.container}>
         {loading ? (
-          <ActivityIndicator size="small" color="#0000ff" />
+          <ActivityIndicator size="small" color="#fffff" />
         ) : (
           <View>
             {meal ? (
@@ -51,6 +53,16 @@ export default function ProfileScreen() {
                   <Text style={styles.category}>
                     {meal.strCategory} / {meal.strArea}
                   </Text>
+                  <Text
+                    style={{
+                      overflow: "hidden",
+                      display: "-webkit-box",
+                      WebkitBoxOrient: "vertical",
+                      WebkitLineClamp: 6
+                    }}
+                  >
+                    {meal.strInstructions}
+                  </Text>
                 </View>
               </View>
             ) : (
@@ -61,9 +73,18 @@ export default function ProfileScreen() {
       </View>
       <View style={styles.down}>
         <View style={styles.downButton}>
-          <Button onPress={fetchMeal} title="Get" color="#fff" />
+          <TouchableOpacity onPress={fetchMeal}>
+            <IoMdRefresh style={{ height: "24px", width: "24px" }} />
+          </TouchableOpacity>
         </View>
-        <Text style={{ fontSize: 14, fontWeight: "bold", marginTop: 10 }}>
+        <Text
+          style={{
+            fontSize: 14,
+            fontWeight: "bold",
+            marginTop: 10,
+            color: "white",
+          }}
+        >
           Click for New Meal
         </Text>
       </View>
@@ -73,33 +94,33 @@ export default function ProfileScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#ececea",
+    backgroundColor: "rgba(255,255,255,.4)",
     color: "#fff",
     paddingTop: 40,
     paddingRight: 20,
     paddingBottom: 40,
-    paddingLeft: 20,
-    borderRadius: 5,
-    width: "100%",
+    paddingLeft: 40,
+    borderRadius: 14,
+    width: "70%",
+    marginTop: "auto",
+    marginRight: "auto",
+    marginLeft: "auto",
   },
   usual: {
-    flex: 1,
-    width: "90%",
-    margin: "auto",
     display: "flex",
-    flexDirection: "column",
-    justifyContent: "space-around",
-    alignItems: "center",
+    justifyContent: "center",
+    height: "90%",
   },
   down: {
     display: "flex",
     alignItems: "center",
     justifyContent: "flex-end",
+    marginTop: "auto",
   },
   downButton: {
     backgroundColor: "orange",
     borderRadius: "100%",
-    padding: 5,
+    padding: 8,
     color: "white",
   },
   window: {
@@ -109,10 +130,10 @@ const styles = StyleSheet.create({
     gap: "20px",
   },
   image: {
-    width: 100,
-    height: 100,
-    borderRadius: 10,
+    width: 160,
+    height: 160,
     margin: "auto",
+    borderRadius: 14,
   },
   title: {
     fontSize: 18,
