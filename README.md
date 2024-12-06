@@ -2,9 +2,9 @@
 
 # React Native -- Random Meal App
 
-<img src="https://github.com/user-attachments/assets/ec4e26b8-b606-4aa0-8914-02cf2e65619a" width="240"/>
-<img src="https://github.com/user-attachments/assets/28005acf-c9e8-4b55-9abb-cf3b782bf48d" width="240"/>
-<img src="https://github.com/user-attachments/assets/c6df460a-edf6-4a05-89a8-dff316d2ab2a" width="240"/>
+<img src="https://github.com/user-attachments/assets/ec4e26b8-b606-4aa0-8914-02cf2e65619a" width="260"/>
+<img src="https://github.com/user-attachments/assets/28005acf-c9e8-4b55-9abb-cf3b782bf48d" width="260"/>
+<img src="https://github.com/user-attachments/assets/c6df460a-edf6-4a05-89a8-dff316d2ab2a" width="260"/>
 
 
 <!-- Table of Contents -->
